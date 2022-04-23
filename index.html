@@ -6,39 +6,39 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script>
       function disableprv() {
-        var element = document.getElementById("btn");
+        var element = document.getElementById("btnprv");
         element.classList.toggle("disabledpreviousbutton");
         element.disabled = true;
       }
 
       function enableprv() {
-        var element = document.getElementById("btn");
+        var element = document.getElementById("btnprv");
         element.classList.toggle("previousbutton");
         element.disabled = true;
       }
 
       function disablenxt() {
-        var element = document.getElementById("btn");
+        var element = document.getElementById("btnnxt");
         element.classList.toggle("disablednextbutton");
         element.disabled = true;
       }
 
       function enablenxt() {
-        var element = document.getElementById("btn");
+        var element = document.getElementById("btnnxt");
         element.classList.toggle("nextbutton");
         element.disabled = true;
       }
 
     </script>
-    <title></title>
+    <title>Blog</title>
   </head>
   <body>
     <h1 class="header">
-      Witaj na moim blogu
+      Lorem ipsum
     </h1>
-    <div class="photowall">
+<!--    <div class="photowall">
       <img src="img/img1.jpg"></img>
-    </div>
+    </div>-->
     <div class="textdiv">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non faucibus nibh, id convallis orci. Quisque ultricies odio sapien, a tincidunt lectus tincidunt eget. Mauris mollis lacinia sollicitudin. Sed mi sapien, egestas in venenatis in, auctor egestas lectus. Duis eleifend nec ligula sit amet tincidunt. Integer ullamcorper sapien turpis, accumsan interdum quam luctus nec. Donec eget feugiat dui, vitae consectetur turpis. Sed in cursus arcu.
 
@@ -50,5 +50,14 @@
 
       Donec scelerisque arcu nec purus pharetra viverra. Aenean metus felis, dictum in mauris vel, commodo ultricies est. Sed id lorem ac lectus vulputate convallis eget ac dolor. Proin finibus ligula mi. Duis sit amet vulputate dui. Vivamus viverra vestibulum dui in bibendum. Vestibulum nec vestibulum tortor. Fusce fermentum luctus mi, consectetur rhoncus ante interdum nec. Nam vitae feugiat est, dignissim placerat magna. Cras purus ligula, tempor a leo vitae, pharetra imperdiet tortor.
     </div>
-  </body>
+
+    <div class="linkdiv">
+      <a href="sites/pmr.html">Pamiętnik Młodego Romantyka</a>
+    </div>
+
+    <div>
+      <button type="button" class="previousbutton" id="btnprv" onclick="disableprv()">back</button>
+      <button type="button" class="nextbutton" id="btnnxt" onclick="disablenxt()">next</button>
+    </div>
+ </body>
 </html>
