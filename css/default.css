@@ -1,0 +1,58 @@
+.nextbutton {
+  background-color: #2b9e19;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+  border-radius: 15px 50px 30px 5px;
+}
+.previousbutton {
+  background-color: #DC143C;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+  border-radius: 50px 15px 5px 30px;
+}
+
+.disablednextbutton{
+  background-color: #646963;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+  border-radius: 15px 50px 30px 5px;
+}
+
+.disabledpreviousbutton{
+  background-color: #646963;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+  border-radius: 50px 15px 5px 30px;
+}
+
+.textdiv {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  text-align: left;
+}
+
+.header {
+  text-align: center;
+}
