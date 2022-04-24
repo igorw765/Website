@@ -29,36 +29,51 @@
         element.disabled = true;
       }
 
-      function sleep(ms) {
-        return new Promise(resolve => setTimeout(resolve, ms));
-      }
     </script>
-
     <title>Blog</title>
   </head>
   <body>
     <h1 class="header">
       Lorem ipsum
     </h1>
-    <div class="photowall">
-      <img id="image" src="img/img1.jpg" alt="Failed loading photo"></img>
-    </div>
-    <script>
-      var image = document.getElementById("image");
-      var currentPos = 0;
-      var images = ["img/img1.jpg", "img/img2.jpg", "img/img3.jpg"]
+      <div class="row">
+        <div class="column">
+          <img src="img/img1.jpg">
+          <img src="img/img2.jpg">
+          <img src="img/img3.jpeg">
+          <img src="img/img1.jpg">
+          <img src="img/img3.jpeg">
+          <img src="img/img2.jpg">
+          <img src="img/img1.jpg">
+        </div>
+        <div class="column">
+          <img src="img/img1.jpg">
+          <img src="img/img2.jpg">
+          <img src="img/img1.jpg">
+          <img src="img/img3.jpeg">
+          <img src="img/img1.jpg">
+          <img src="img/img2.jpg">
+          <img src="img/img1.jpg">
+        </div>
+        <div class="column">
+          <img src="img/img1.jpg">
+          <img src="img/img2.jpg">
+          <img src="img/img3.jpeg">
+          <img src="img/img1.jpg">
+          <img src="img/img2.jpg">
+          <img src="img/img3.jpeg">
+          <img src="img/img1.jpg">
 
-      async function changePhoto() {
-        if (++currentPos >= images.length)
-          currentPos = 0;
-//         await sleep(500);
-        image.classList.toggle('flipout-anim')
-        image.src = images[currentPos];
-        }
-
-        setInterval(changePhoto, 1200);
-
-    </script>
+        </div>
+        <div class="column">
+          <img src="img/img1.jpg">
+          <img src="img/img3.jpeg">
+          <img src="img/img1.jpg">
+          <img src="img/img3.jpeg">
+          <img src="img/img2.jpg">
+          <img src="img/img2.jpg">
+        </div>
+      </div>
     <div class="textdiv">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non faucibus nibh, id convallis orci. Quisque ultricies odio sapien, a tincidunt lectus tincidunt eget. Mauris mollis lacinia sollicitudin. Sed mi sapien, egestas in venenatis in, auctor egestas lectus. Duis eleifend nec ligula sit amet tincidunt. Integer ullamcorper sapien turpis, accumsan interdum quam luctus nec. Donec eget feugiat dui, vitae consectetur turpis. Sed in cursus arcu.
 
