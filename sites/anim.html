@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <link rel="stylesheet" href="../css/default.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+      function disableprv() {
+        var element = document.getElementById("btnprv");
+        element.classList.toggle("disabledpreviousbutton");
+        element.disabled = true;
+      }
+
+      function enableprv() {
+        var element = document.getElementById("btnprv");
+        element.classList.toggle("previousbutton");
+        element.disabled = true;
+      }
+
+      function disablenxt() {
+        var element = document.getElementById("btnnxt");
+        element.classList.toggle("disablednextbutton");
+        element.disabled = true;
+      }
+
+      function enablenxt() {
+        var element = document.getElementById("btnnxt");
+        element.classList.toggle("nextbutton");
+        element.disabled = true;
+      }
+
+    </script>
+  </head>
+  <body>
+  <div style="text-align: center">
+    <a href="../anim/fireworks.html">Fajerwerki</a>
+  </div>
+     <div class="divbtn">
+      <button type="button" class="previousbutton" id="btnprv" onclick="location.href='../index.html';">back</button>
+	</div>
+  </body>
+</html>

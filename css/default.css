@@ -19,6 +19,9 @@
   font-size: 16px;
   border: none;
   border-radius: 50px 15px 5px 30px;
+  position: fixed;
+  bottom: 20px;
+  left: 50px;
 }
 
 .disablednextbutton{
