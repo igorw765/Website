@@ -87,10 +87,8 @@
 }
 
 .linkdiv {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 80px;
+  margin: auto;
+  width: 50%;
   text-align: center;
 }
 
