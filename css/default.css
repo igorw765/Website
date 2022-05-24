@@ -78,6 +78,20 @@
   flex: auto
 }
 
+.credits{
+  background-color: #222226;
+  color: #dfdfed;
+  padding: 32px 32px;
+  text-align: center;
+  position: fixed;
+  bottom: -10px;
+  left: -10px;
+  width: 100%;
+  border: solid;
+  border-color: #cf1f31;
+  border-radius: 15px 15px 15px 15px;
+}
+
 .textdiv {
   margin-top: 100px;
   margin-bottom: 100px;
