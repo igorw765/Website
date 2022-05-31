@@ -1,44 +1,25 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="pl">
   <head>
-    <meta charset="utf-8">
-    <title></title>
-
-    <link rel="stylesheet" href="../css/default.css">
+    <link rel="stylesheet" href="../css/books.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script>
-      function disableprv() {
-        var element = document.getElementById("btnprv");
-        element.classList.toggle("disabledpreviousbutton");
-        element.disabled = true;
-      }
-
-      function enableprv() {
-        var element = document.getElementById("btnprv");
-        element.classList.toggle("previousbutton");
-        element.disabled = true;
-      }
-
-      function disablenxt() {
-        var element = document.getElementById("btnnxt");
-        element.classList.toggle("disablednextbutton");
-        element.disabled = true;
-      }
-
-      function enablenxt() {
-        var element = document.getElementById("btnnxt");
-        element.classList.toggle("nextbutton");
-        element.disabled = true;
-      }
-
-    </script>
+    <meta charset="utf-8">
+    <title>Animacje</title>
   </head>
   <body>
-  <div style="text-align: center">
-    <a href="../anim/fireworks.html">Fajerwerki</a>
-  </div>
-     <div class="divbtn">
-      <button type="button" class="previousbutton" id="btnprv" onclick="location.href='../index.html';">back</button>
-	</div>
+    <a href="../anim/fireworks.html">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Fajerwerki
+      </a>
+      <a href="../index.html">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Wkrótce...
+    </a>
   </body>
 </html>
