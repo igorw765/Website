@@ -1,0 +1,21 @@
+body {
+    font-family: "Times New Roman";
+    background: linear-gradient(315deg, #ffffff, #d7e1ec);
+}
+
+.textp{  
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 60px;
+    letter-spacing: 1.5px;
+    text-indent: 15px;
+    word-spacing: 5px;
+    font-size: 24px
+}
+
+.header {
+    text-align: center;
+    font-size: 48px;
+}
+  
